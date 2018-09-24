@@ -1,6 +1,6 @@
 /*Selector*/
-function $(selector) {
-
+function $(selector)
+{
 	var about =
 	{
 		Author: "Mustafa Uzun"
@@ -21,12 +21,10 @@ function $(selector) {
 	{
 		return about;
 	}
-
 }
 
 function CheckBoolean(bool)
 {
-	
 	if(typeof bool === 'boolean')
 	{
 		return true;
@@ -36,7 +34,6 @@ function CheckBoolean(bool)
 		console.log("is not boolean");
 		return false;
 	}
-
 }
 
 $.prototype =
